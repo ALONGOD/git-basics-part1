@@ -8,4 +8,6 @@ function onBallClick(elBall) {
     elBall.style.height = initialSize + "px"
     elBall.innerText = initialSize
 
+    elBall.style.backgroundColor = getRandomColor()
+
 }
