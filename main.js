@@ -11,3 +11,10 @@ function onBallClick(elBall, maxSize) {
     elBall.style.backgroundColor = getRandomColor()
 
 }
+
+
+function onThirdBallClick() {
+    var elFirstBall = document.querySelector('.ball')
+    var elSecondBall = document.querySelector('.second')
+    // elFirstBall.style.backgroundColor
+}

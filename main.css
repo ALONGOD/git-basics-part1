@@ -37,3 +37,19 @@ h1 {
     transition: 1s;
 
 }
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: pink;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 100px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: 1s;
+
+}
