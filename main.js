@@ -43,3 +43,9 @@ function onFifthBallClick() {
     elHtml.style.backgroundColor = randomColor
     elGame.style.backgroundColor = randomColor
 }
+
+
+
+function onSixthBallClick() {
+    location.reload()
+}
