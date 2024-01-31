@@ -18,8 +18,12 @@ h1 {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: red;
+    /* background-color: red; */
     transition: 1s;
+}
+
+.first {
+    background-color: red;
 }
 
 .second {
@@ -52,4 +56,14 @@ h1 {
     border-radius: 50%;
     transition: 1s;
 
+}
+
+
+.fourth {
+    background-color: aqua;
+}
+
+
+.fifth {
+    background-color: gold;
 }
