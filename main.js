@@ -34,3 +34,12 @@ function onFourthBallClick() {
     if (initialSize === 20) initialSize = 100
 
 }
+
+
+function onFifthBallClick() {
+    var elHtml = document.querySelector('html')
+    var elGame = document.querySelector('.game')
+    var randomColor = getRandomColor()
+    elHtml.style.backgroundColor = randomColor
+    elGame.style.backgroundColor = randomColor
+}
